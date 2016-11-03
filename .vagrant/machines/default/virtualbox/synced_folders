@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/angular-demo":{"type":null,"mount_options":[],"guestpath":"/home/vagrant/angular-demo","hostpath":"/Users/Jonathan/web/sites/angular-demo","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/Jonathan/web/sites/angular-demo","disabled":false,"__vagrantfile":true}}}

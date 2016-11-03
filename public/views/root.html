@@ -1,0 +1,16 @@
+<h1 class="text-center">Demo Angular App</h1>
+<section class="col-sm-6 col-sm-offset-3">
+  <form name="multiply" ng-submit="vm.multiplyNum()" novalidate>
+    <h2>Multiply Numbers</h2>
+    <div class="form-group">
+      <label>Enter your first number</label>
+      <input type="number" class="form-control" ng-model="vm.num1" required>
+    </div>
+    <div class="form-group">
+      <label>Enter your second number</label>
+      <input type="number" class="form-control" ng-model="vm.num2" required>
+    </div>
+    <button type="submit" class="btn btn-primary" ng-disabled="multiply.$invalid">Multiply!</button>
+  </form>
+</section>
+<h2 ng-show="vm.answer">{{ vm.num1 }} * {{ vm.num2 }} = {{ vm.answer }}</h2>
